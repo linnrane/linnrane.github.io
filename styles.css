@@ -1,0 +1,39 @@
+H1 {
+	color: grey;
+	font: 80px helvetica;
+}
+H2 {
+	color: #008B8B;
+}
+body {
+    margin-top: 50px;
+    font-size: 20px;
+}
+.vitt {
+	color: #DCDCDC;
+	font: 50px helvetica, sans-serif;
+
+}
+.img-circle {
+    border-radius: 50%;
+    width: 25%
+}
+.img-size {
+	width: 10%;
+}
+.img-size2 {
+	width: 32%;
+}
+.grey {
+	color: white;
+	background-image: url("https://media2.giphy.com/media/36wdaxsOfaN5C/200.webp#16");
+	background-size: 32%;
+	background-repeat: no-repeat;
+	background-position: center; 
+	font: 60px helvetica;
+	font-weight: bold;
+	padding: 80px
+}
+.white {
+	color: white;
+}
