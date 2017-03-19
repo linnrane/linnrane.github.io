@@ -1,39 +1,234 @@
-H1 {
+.mittnamn {
 	color: grey;
-	font: 80px helvetica;
+	font: 40px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
 }
+
 H2 {
 	color: #008B8B;
-}
-body {
-    margin-top: 50px;
-    font-size: 20px;
-}
-.vitt {
-	color: #DCDCDC;
-	font: 50px helvetica, sans-serif;
+	font: 20px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
 
 }
+body {
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+
+p {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+div {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.vitt {
+	color: #DCDCDC;
+	font: 50px; 
+	font-family: 'Raleway', sans-serif;
+}
+
 .img-circle {
     border-radius: 50%;
-    width: 25%
+    width: 70%;
+    margin-top: 10%;
 }
+
 .img-size {
-	width: 10%;
+	width: 20%;
 }
 .img-size2 {
-	width: 32%;
+	width: 100%;
 }
 .grey {
 	color: white;
 	background-image: url("https://media2.giphy.com/media/36wdaxsOfaN5C/200.webp#16");
-	background-size: 32%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center; 
-	font: 60px helvetica;
+	font: 80px;
+	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
-	padding: 80px
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-left: 0%;
+	margin-right: 0%;
 }
+
 .white {
 	color: white;
 }
+
+.black {
+	color: black;
+	text-decoration: none;
+}
+
+.asustext {
+	background-color: #a3a3c2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.asustext2 {
+	font: 50px;
+	color: #a3a3c2;
+	text-align: right;
+	margin-right: 50px;
+}
+
+.glossytext {
+	background-color: #ffcccc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+
+}
+
+.lundtext {
+	background-color: #d6d6c2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+
+}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.indexsidan {
+	background-image: url();
+	background-size: 50%;
+	background-repeat: no-repeat;	
+}
+
+.linnsidan {
+	background-image: url(linnfb.jpg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+
+.asussidan{
+	background-image: url(asus3.jpg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+
+.glossysidan {
+	background-image: url(glossybox.jpg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+
+.lundsidan {
+	background-image: url(lund2.jpg);
+	background-size: 50%;
+	background-repeat: no-repeat;	
+}
+
+
+@media only screen and (min-width: 500px) {
+	.mittnamn {
+		color: #FF7F50;
+	}
+	.img-circle {
+		width: 40%;
+	}
+	.img-size {
+		width: 10%;
+		}
+	.img-size2 {
+		width: 80%;
+		}
+	p {
+		font-size: 15px;
+		font-family: 'Raleway', sans-serif;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.grey {
+		background-size: 80%;
+		font: 50px;
+		font-family: 'Raleway', sans-serif;
+	}
+}
+
+@media only screen and (min-width: 760px) {
+	.mittnamn {
+		color: #000000;
+	}
+	.img-circle {
+		width: 20%;
+	}
+	.img-size {
+		width: 5%;
+		margin-top: 3%
+		}
+	.img-size2 {
+		width: 450px;
+		margin-top: 400px;
+
+	}
+	p {
+		font-size: 15px;
+		font-family: 'Raleway', sans-serif;
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+	.grey {
+		background-size: 400px
+	}
+	.jobb1 {
+		display: inline-block;
+	}
+}
+
