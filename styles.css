@@ -1,72 +1,70 @@
-.mittnamn {
+h1 {
 	color: grey;
-	font: 40px;
+	font-size: 40px;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	margin-left: 10%;
 	margin-right: 10%;
 }
 
-H2 {
+h2 {
 	color: #008B8B;
-	font: 20px;
+	font-size: 20px;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	margin-left: 10%;
 	margin-right: 10%;
-
 }
+
 body {
     margin-top: 20px;
     font-size: 10px;
     text-align: center;
 }
 
-p {
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
-div {
-	padding-bottom: 10px;
-	padding-top: 10px;
-}
-
-.vitt {
-	color: #DCDCDC;
-	font: 50px; 
-	font-family: 'Raleway', sans-serif;
-}
-
-.img-circle {
+.profilbild {
     border-radius: 50%;
     width: 70%;
     margin-top: 10%;
 }
 
-.img-size {
+.loggor {
 	width: 20%;
 }
-.img-size2 {
+
+.jobbkvadratbild {
 	width: 100%;
+	margin-top: 10%
 }
-.grey {
-	color: white;
+
+.kontaktgif {
 	background-image: url("https://media2.giphy.com/media/36wdaxsOfaN5C/200.webp#16");
+	filter: grayscale(100%);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center; 
-	font: 80px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: bold;
 	padding-top: 80px;
 	padding-bottom: 80px;
 	margin-left: 0%;
 	margin-right: 0%;
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 
 .white {
 	color: white;
+	text-decoration: none;
+	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+.white2 {
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
 }
 
 .black {
@@ -84,7 +82,7 @@ div {
 }
 
 .asustext2 {
-	font: 50px;
+	font-size: 50px;
 	color: #a3a3c2;
 	text-align: right;
 	margin-right: 50px;
@@ -97,7 +95,13 @@ div {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-left: 0px;
+}
 
+.glossytext2 {
+	font-size: 50px;
+	color: #ffcccc;
+	text-align: right;
+	margin-right: 50px;
 }
 
 .lundtext {
@@ -107,7 +111,13 @@ div {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-left: 0px;
+}
 
+.lundtext2 {
+	font-size: 50px;
+	color: #d6d6c2;
+	text-align: right;
+	margin-right: 50px;
 }
 
 /* Style the tab */
@@ -177,16 +187,13 @@ div.tab button.active {
 
 
 @media only screen and (min-width: 500px) {
-	.mittnamn {
-		color: #FF7F50;
-	}
-	.img-circle {
+	.profilbild {
 		width: 40%;
 	}
-	.img-size {
+	.loggor {
 		width: 10%;
 		}
-	.img-size2 {
+	.jobbkvadratbild {
 		width: 80%;
 		}
 	p {
@@ -195,27 +202,34 @@ div.tab button.active {
 		margin-left: 10%;
 		margin-right: 10%;
 	}
-	.grey {
+	.kontaktgif {
 		background-size: 80%;
-		font: 50px;
-		font-family: 'Raleway', sans-serif;
+	}
+	.asustext {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+		.glossytext {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+		.lundtext {
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 }
 
 @media only screen and (min-width: 760px) {
-	.mittnamn {
-		color: #000000;
-	}
-	.img-circle {
+	.profilbild {
 		width: 20%;
 	}
-	.img-size {
+	.loggor {
 		width: 5%;
 		margin-top: 3%
 		}
-	.img-size2 {
+	.jobbkvadratbild {
 		width: 450px;
-		margin-top: 400px;
+		margin-top: 300px;
 
 	}
 	p {
@@ -224,11 +238,26 @@ div.tab button.active {
 		margin-left: 0%;
 		margin-right: 0%;
 	}
-	.grey {
-		background-size: 400px
+	.kontaktgif {
+		background-size: 400px;
+		margin-top: 150px;
+		margin-bottom: 20px;
 	}
+
 	.jobb1 {
 		display: inline-block;
+	}
+		.asustext {
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+		.glossytext {
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+		.lundtext {
+		margin-left: 0%;
+		margin-right: 0%;
 	}
 }
 
